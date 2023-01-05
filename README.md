@@ -79,11 +79,11 @@ ex:
 - Accessbility can be change of the attributes, constructor, setter, method.
 - Types:
 1. public - scope of public modifier is everywhere i.e., within and outside of package. 
-2. protected - scope of protected modifier is within the package but we can access outside of the package if the class is derived class.
+2. protected - scope of protected modifier is within the class but we can access outside of the class if the class is derived class.
 3. default - scope of default modifier is with the package.
 4. private - scope of the private modifier is within  the class we cannot access outside the class even if it having same package.
 
-![AccessModifier]()
+![AccessModifier](https://github.com/MangeshAru/OOPS-/blob/main/AccessModifier.jpg)
 
 
 
