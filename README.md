@@ -71,9 +71,10 @@ ex:
           // bussiness logic
 
    }
- `Concrete class`
+   
+`Concrete class`
  - A concrete class is a class that has an implementation for all of its methods.
- `Non-Concrete class`
+`Non-Concrete class`
  - A non-concrete class is a class that has minimum one abstract method.
    
 `Access Modifier`
@@ -119,7 +120,9 @@ ex:
  - static block is generally used to initialize the static variable.
  - static block executes only once when the class is loaded (even before the instance is created).
  ex:
-  class Employee{
+  class Employee {
+  
+  
     stact int empid;
     static{
          empid = empid + 1;
@@ -133,18 +136,26 @@ ex:
 - types of constructor:
   - default constructor 
   - no argument constructor 
-  - parameterised constructor
- `default constructor`
+  - parameterised constructor</br>
+  
+`default constructor`
   - If the programmer doesn't provide the constructor then compiler provide the default constructor.It is implicitly done by compiler.
  ex:
-   class Employee{
+   class Employee {
+   
+   
       private int id;
       Employee()  // default constructor
+      
   }
- `parameterised constructor`
+ 
+`parameterised constructor`
   - The explicit constructor that is created by programmer with one or more parameter to initialize instance variable of class.
  ex:
-  class Employee{
+ 
+  class Employee {
+   
+   
      int empid;
      int ename;
      employee( int empid, int ename){
@@ -156,17 +167,20 @@ ex:
  `this keyword`
  - refers to the current object in a method or constructor.
 ## Basic Structure of oops
-  <Access_Modifier> class class_name{
-       // data member(argument)
-       Access_Modifier data_type nameOfArgument;
-       //constructor
-       public class_name(no_of_parameter){
-                // initializing data member
-       }
-       //method
-       access_modifier return_type method_name ( list_of_parameter ){
-             //bussiness logic--implementation 
-       }
+
+
+  <Access_Modifier> class class_name {
+                      
+                      // data member(argument)
+                      Access_Modifier data_type nameOfArgument;
+                      //constructor
+                      public class_name(no_of_parameter){
+                                  // initializing data member
+                      }
+                      //method
+                      access_modifier return_type method_name ( list_of_parameter ){
+                                //bussiness logic--implementation 
+                      }
    }
  
 ### Inheritance
